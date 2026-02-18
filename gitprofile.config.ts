@@ -34,26 +34,30 @@ const CONFIG = {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
+        // {
+        //   title: 'Project Name',
+        //   description:
+        //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        //   imageUrl:
+        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        //   link: 'https://example.com',
+        // },
+        // {
+        //   title: 'Project Name',
+        //   description:
+        //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        //   imageUrl:
+        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        //   link: 'https://example.com',
+        // },
       ],
     },
   },
-  seo: { title: 'Portfolio of Franco N. Colaizzi', description: '', imageURL: '' },
+  seo: { 
+    title: 'Portfolio of Franco N. Colaizzi', 
+    description: 'Franco N. Colaizzi Profile', 
+    imageURL: 'gitprofile-image.png' 
+  },
   social: {
     linkedin: 'fnc314',
     x: 'fnc314',
@@ -78,88 +82,85 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://docs.google.com/document/d/e/2PACX-1vS5hE6a7a8zK9mHt7cR-nf2hQXXV6bx8uPPpDBjsKKp7UlFLBbLFPK8ib2f-QVVpG1AEEc-_OinCI0g/pub', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'Android',
+    'Kotlin/Java',
+    'Gradle',
+    'RxJava/Coroutines',
+    'JavaScript/ECMAScript/TypeScript',
+    'HTML/CSS',
+    'MV* Architecture',
+    'Clean Architecture',
+    'Clean Code',
+    'Design Tokens',
+    'CI/CD',
+    'TDD',
+    'Agentic AI development workflows',
+    'Mobile-first AI implementations',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Google Cloud',
+    'Firebase',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'CGI Technologies and Solutions, Inc.',
+      position: 'Director, Consulting Expert',
+      from: 'August 2014',
+      to: 'January 2026',
+      companyLink: 'https://www.cgi.com/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Pittsburgh Public Schools',
+      position: 'Secondary Mathematics Teacher',
+      from: 'September 2007',
+      to: 'June 2012',
+      companyLink: 'https://www.pghschools.org/',
     },
   ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
+  // certifications: [
+  //   {
+  //     name: 'Lorem ipsum',
+  //     body: 'Lorem ipsum dolor sit amet',
+  //     year: 'March 2022',
+  //     link: 'https://example.com',
+  //   },
+  // ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'University of Pittsburgh',
+      degree: 'Bachelor of Science in Mathematics',
+      from: '2007',
+      to: '2011',
     },
   ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
+  // publications: [
+  //   {
+  //     title: 'Publication Title',
+  //     conferenceName: '',
+  //     journalName: 'Journal Name',
+  //     authors: 'John Doe, Jane Smith',
+  //     link: 'https://example.com',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  //   },
+  //   {
+  //     title: 'Publication Title',
+  //     conferenceName: 'Conference Name',
+  //     journalName: '',
+  //     authors: 'John Doe, Jane Smith',
+  //     link: 'https://example.com',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  //   },
+  // ],
   // Display articles from your medium or dev account. (Optional)
-  blog: {
-    source: 'medium', // medium | dev
-    username: 'fnc314', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
-  },
+  // blog: {
+  //   source: 'medium', // medium | dev
+  //   username: 'fnc314', // to hide blog section, keep it empty
+  //   limit: 2, // How many articles to display. Max is 10.
+  // },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
