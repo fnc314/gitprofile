@@ -81,8 +81,8 @@ const CONFIG = {
     email: 'fnc314@fnc314.com',
   },
   resume: {
-    fileUrl:
-      'https://docs.google.com/document/d/e/2PACX-1vS5hE6a7a8zK9mHt7cR-nf2hQXXV6bx8uPPpDBjsKKp7UlFLBbLFPK8ib2f-QVVpG1AEEc-_OinCI0g/pub', // Empty fileUrl will hide the `Download Resume` button.
+    // fileUrl: 'https://docs.google.com/document/d/e/2PACX-1vS5hE6a7a8zK9mHt7cR-nf2hQXXV6bx8uPPpDBjsKKp7UlFLBbLFPK8ib2f-QVVpG1AEEc-_OinCI0g/pub', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://www.fnc314.com/2026_resume.pdf'
   },
   skills: [
     'Android',
